@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 590px
+}
+/* Title and button */
+
+.task-head {
+    color: #342C2C;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+/* left bold */
+.head-line {
+    font-size: 1.5rem;
+}
+/* left thin */
+.head-line span  {
+    font-weight: 100;
+    color: #707070;
+}
+/* right */
+
+.add-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* plus button */
+
+.add-btn .btn {
+    margin-right: 10px;
+    padding: 1px 8px;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+}
+/* add list */
+
+.add-btn span {
+    font-weight: 300;
+    color: #707070;
+    font-size: 1.7rem;
+}
+
+/* cards */
+
+.main-todo{
+    display: flex;
+    justify-content: space-between;
+}
+ /* card container */
+.todo-lists {
+    height: 260px;
+    width: 170px;
+    background-color: #FFFFFF;
+    border: 1px solid#e74c3c;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px lightgray;
+    padding-left: 5px;
+}
+/* todo heading */
+
+.todo-task {
+    font-weight: 300;
+    text-align: center;
+    color: #e74c3c;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+hr {
+    margin-left: 30px;
+}
+/* completed task */
+.task {
+    font-weight: 500;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    color: #FF0000;
+    text-align: center;
+}
+/* pending task */
+.task-check{
+    color: black;
+    font-weight: 400;
+    text-align:start;
+}
+
+
